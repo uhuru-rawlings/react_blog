@@ -51,7 +51,7 @@ export const Blogs = () => {
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="date">posted: {new Date(item.created_at).toLocaleString()}</div>
                             <div className="buttons">
-                                <Link to="" className="btn btn-secondary">Read More</Link>
+                                <Link to={'/blog/'+item.id} className="btn btn-secondary">Read More</Link>
                             </div>
                         </div>
                     </div>

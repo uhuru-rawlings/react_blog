@@ -16,6 +16,9 @@ export const Header = () => {
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item active">
+                        <Link className="nav-link" to="/blog/new">Blog</Link>
+                    </li>
+                    <li className="nav-item active">
                         <Link className="nav-link" to="#">Login</Link>
                     </li>
                 </ul>

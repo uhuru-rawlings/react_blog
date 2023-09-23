@@ -4,6 +4,7 @@ import { Header } from '../Header/Header'
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import './Blogs.css'
 
 export const Blogs = () => {
   const [data, setData] = useState([]);
